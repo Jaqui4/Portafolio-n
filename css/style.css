@@ -1,0 +1,211 @@
+@font-face {
+    font-family: 'Miama';
+    src: url(/fonts/Miama-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Spartan';
+    src: url(/fonts/LeagueSpartan-Medium.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(/fonts/Comfortaa-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+#title {
+    font-family: 'Miama';
+    font-weight: 400;
+    color: #5A2073;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+
+body {
+    background: linear-gradient(to right, rgba(107, 73, 151, 0.3), rgba(135, 74, 159, 0.4), rgba(77, 77, 162, 0.3))
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    font-family: 'Comfortaa';
+    font-weight: 400;
+    color: #5A2073 !important;
+}
+
+/*sección inicio*/
+.inicio1 {
+    font-family: 'Miama';
+    font-weight: 400;
+    color: #F27272;
+}
+.inicio2 {
+    font-family: 'Spartan';
+    font-weight: 400;
+    color: #5A2073;
+}
+.inicio3 {
+    font-family: 'Spartan';
+    font-weight: 400;
+    color: #7F26A6;
+}
+
+/*icons socialmedia*/
+i {
+    font-size: 30px;
+    color: #5A2073;
+    margin: 10px;
+}
+
+.btncv {
+    font-family: 'Comfortaa';
+    font-size: 400;
+    color: #7F26A6;
+    background-color: #F27272;
+    border-color: #5A2073;
+    border-radius: 20px;
+    width: 140px;
+    height: 35px;
+    margin: 10px;
+}
+
+.img-fluid {
+    width: 250px;
+    border-radius: 150px
+}
+
+/*sección about*/
+.titleAbout {
+    text-align: center;
+    font-family: 'Spartan';
+    font-weight: 400;
+    color: #5A2073;
+    margin-top: 5%;
+}
+
+#cardAbout {
+    width: 700px;
+    background-color: #F27272;
+    text-align: justify;
+    border-radius: 30px;
+    margin-top: 5%;
+}
+
+.card-text {
+    font-family: 'Comfortaa';
+    font-weight: 400;
+    color: #7F26A6;
+    margin-top: 20%;
+}
+
+/*sección skills*/
+.titleSkills {
+    text-align: center;
+    font-family: 'Spartan';
+    font-weight: 400;
+    color: #5A2073;
+    margin-top: 10%;
+}
+.tecnologias {
+    font-family: 'Spartan';
+    font-weight: 400;
+    color: #5A2073;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.herramientas {
+    font-family: 'Spartan';
+    font-weight: 400;
+    color: #5A2073;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.card-body2 {
+    background-color: #F27272;
+    border-radius: 20px;
+}
+
+.card-text2 {
+    font-family: 'Comfortaa';
+    font-weight: 400;
+    color: #7F26A6;
+    text-align: center;
+}
+
+/*sección proyectos*/
+.titleProyectos {
+    text-align: center;
+    font-family: 'Spartan';
+    font-weight: 400;
+    color: #5A2073;
+    margin-top: 10%;
+}
+/*carrusel*/
+.carousel-caption {
+    font-family: 'Comfortaa';
+    color: #7F26A6;
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+}
+.carousel-control-prev, .carousel-control-next, .carousel-indicators {
+    filter: invert(108%);
+}
+
+/*sección contacto*/
+.titleContacto {
+    text-align: center;
+    font-family: 'Spartan';
+    font-weight: 400;
+    color: #5A2073;
+    margin-top: 10%;
+}
+
+#nombreInput, #telInput, #emailInput, #asuntoInput, #mensajeInput {
+    border-color: #5A2073 !important;
+    background-color: #F27272;
+    border-radius: 20px;
+}
+
+#mensajeInput {
+    height: 12rem;
+    padding-bottom: 150px;
+}
+
+::placeholder {
+    font-family: 'Comfortaa';
+    font-size: 400;
+    color: #7F26A6 !important;
+}
+
+.btnEnviar {
+    font-family: 'Comfortaa';
+    font-size: 400;
+    text-align: center;
+    color: #7F26A6;
+    background-color: #F27272;
+    border-color: #5A2073;
+    border-radius: 20px;
+    width: 100px;
+    height: 35px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*footer*/
+#footer {
+    background-color: #5A2073;
+    height: 120px;
+    text-align: center;
+    color: #fff;
+}

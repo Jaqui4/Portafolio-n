@@ -40,6 +40,14 @@ nav a {
     font-family: 'Comfortaa';
     font-weight: 400;
     color: #5A2073 !important;
+    /*lo que se agrega 04 dic*/
+    /* position: relative;
+    display: block; */
+}
+
+#menu:hover {
+    color:#5A2073 !important;
+    transform: scale(1.2);
 }
 
 /*sección inicio*/
@@ -76,10 +84,12 @@ i {
     width: 140px;
     height: 35px;
     margin: 10px;
+    text-align: center;
+    padding: 5px;
 }
 
 .img-fluid {
-    width: 250px;
+    width: 400px;
     border-radius: 150px
 }
 

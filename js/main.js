@@ -14,3 +14,6 @@ const typed2 = new Typed ('.inicio1', {
     backDelay: 1000,
     loop: true,
 });
+
+//Validaciones
+let
